@@ -10,8 +10,8 @@ class Contato extends CI_Controller
     }
     public function index()
     {
-        $data['title'] = '';
-        $data['description'] = '';
+        $data['title'] = 'Café Canaan';
+        $data['description'] = 'O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
@@ -22,7 +22,7 @@ class Contato extends CI_Controller
             $telefone = $this->input->post('phone');
             $interesse = $this->input->post('interesse');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.site.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.canaan.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
@@ -43,16 +43,10 @@ class Contato extends CI_Controller
                             </body></html>");
 
             if ($this->email->send()) {
-                redirect('https://www.site.com.br/contato/obrigado');
+                redirect('https://www.canaan.com.br/contato/obrigado');
             } else {
-                redirect('https://www.site.com.br/contato/fail');
+                redirect('https://www.canaan.com.br/contato/fail');
             }
-
-            // if ($this->email->send()) {
-            //     redirect('http://racklavaloucas.com.br/contato/obrigado');
-            // } else {
-            //     redirect('http://racklavaloucas.com.br/contato/fail');
-            // }
         }
 
         $this->load->view('html_header', $data);
@@ -65,8 +59,8 @@ class Contato extends CI_Controller
 
     public function obrigado()
     {
-        $data['title'] = '';
-        $data['description'] = '';
+        $data['title'] = 'Café Canaan';
+        $data['description'] = 'O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
@@ -80,8 +74,8 @@ class Contato extends CI_Controller
 
     public function fail()
     {
-        $data['title'] = '';
-        $data['description'] = '';
+        $data['title'] = 'Café Canaan';
+        $data['description'] = 'O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
