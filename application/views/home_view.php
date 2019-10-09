@@ -1,4 +1,4 @@
-<div id="nosso-cafe" class="nosso-cafe">
+<div id="home" class="home">
     <section class="carousel-default">
         <div id="carousel-default" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
@@ -16,6 +16,28 @@
     </section>
 </div>
 
+<div id="nosso-cafe" class="nosso-cafe">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>NOSSO<br /> CAFÉ</h1>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h3>escolha mais sabor para o seu dia.</h3>
+                <p> Se você é apaixonado por café como nós, também
+                    não abre mão dele no seu dia a dia. De manhã, após
+                    o almoço e nas pausas no meio do expediente, um bom
+                    café é sempre uma ótima pedida. Desde 1950, o Café Canaan
+                    tem dado mais sabor ao dia de milhares de famílias. Gente
+                    que reconheceu no Café Canaan mais que um café, mas uma companhia para seus momentos de paz, harmonia e felicidade.
+                    A grande notícia é que agora o nosso café está com novo sabo
+                    e nova embalagem. Afinal, tradição também se renova. E isso
+                    merece uma comemoração. Vamos erguer nossas xícaras
+                    e brindar a dias mais saborosos!</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div id="contato" class="contato animated wow slideInUp">
     <div class="container">
