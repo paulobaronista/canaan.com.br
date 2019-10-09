@@ -1,4 +1,4 @@
-<div id="home" class="home">
+<div id="nosso-cafe" class="nosso-cafe">
     <section class="carousel-default">
         <div id="carousel-default" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">

@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Cronos Pro';
+    src: url('../fonts/CronosPro-Regular.eot');
+    src: url('../fonts/CronosPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CronosPro-Regular.woff2') format('woff2'),
+        url('../fonts/CronosPro-Regular.woff') format('woff'),
+        url('../fonts/CronosPro-Regular.ttf') format('truetype'),
+        url('../fonts/CronosPro-Regular.svg#CronosPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .margin-top {
     margin-top: 10px;
 }
