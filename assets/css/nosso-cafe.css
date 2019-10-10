@@ -1,8 +1,6 @@
 /* Extra Small */
 
-@media(max-width:767px) {
-
-}
+@media(max-width:767px) {}
 
 
 /* Small */
@@ -18,3 +16,7 @@
 /* Large */
 
 @media(min-width:1200px) {}
+
+.nosso-cafe .cafe {
+    margin: 0 auto;
+}

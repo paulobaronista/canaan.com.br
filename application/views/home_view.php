@@ -29,6 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
+                <img class="img-responsive cafe" src="<?= base_url(); ?>assets/images/graos-de-cafe.png" alt="">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
                 <h1>NOSSO<br /> CAFÉ</h1>
@@ -47,6 +48,9 @@
                     e brindar a dias mais saborosos!</p>
             </div>
         </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+        <img class="img-responsive bg-cafe" src="<?= base_url(); ?>assets/images/maos-na-colheita.png" alt="">
     </div>
 </div>
 
