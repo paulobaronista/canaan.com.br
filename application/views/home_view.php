@@ -5,20 +5,31 @@
                 <div class="item active">
                     <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-1.jpg" alt="Banner">
                 </div>
-                <div class="item">
+                <!-- <div class="item">
                     <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-1.jpg" alt="Banner">
                 </div>
                 <div class="item">
                     <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-1.jpg" alt="Banner">
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
+    <div class="logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <img class="img-responsive animated bounceInLeft" src="<?= base_url(); ?>assets/images/canaan-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="nosso-cafe" class="nosso-cafe">
     <div class="container">
         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
                 <h1>NOSSO<br /> CAFÉ</h1>
             </div>
