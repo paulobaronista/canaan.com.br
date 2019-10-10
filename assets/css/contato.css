@@ -1,16 +1,20 @@
-
+.contato .form-control {
+    background-color: #fff7e7;
+    border: 1px solid #f9bc66;
+    height: 53px;
+    border-radius: 30px;
+    font-family: 'Cronos Pro';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #464b50;
+}
 
 .contato .form-control::placeholder {
-    color: #464b50;
+
 }
 
-.contato .form-control:-ms-input-placeholder {
-    color: #464b50;
-}
-
-.contato .form-control::-ms-input-placeholder {
-    color: #464b50;
-}
 
 .contato textarea {
     height: 150px !important;
@@ -18,9 +22,7 @@
 
 /* Extra Small */
 
-@media(max-width:767px) {
-
-}
+@media(max-width:767px) {}
 
 
 /* Small */

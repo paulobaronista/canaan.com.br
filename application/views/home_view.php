@@ -29,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <img class="img-responsive cafe" src="<?= base_url(); ?>assets/images/graos-de-cafe.png" alt="">
+                <img class="img-responsive mx-auto cafe" src="<?= base_url(); ?>assets/images/graos-de-cafe.png" alt="">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
                 <h1>NOSSO<br /> CAFÉ</h1>
@@ -54,29 +54,46 @@
     </div>
 </div>
 
+<div id="nossos-produtos" class="nossos-produtos">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="contato" class="contato animated wow slideInUp">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <img class="img-responsive mx-auto cafe-contato" src="<?= base_url(); ?>assets/images/graos-po-xicara-de-cafe.png" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 text-center">
                 <h2>Contato</h2>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                <h3>para pedidos, sugestões ou dúvidas,
+                    esse é o seu espaço.</h3>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
                 <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                     <div class="group-form">
-                        <div class="col-xs-12 col-md-12 padding-off-mobile form-group">
-                            <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="Nome:*" />
+                        <div class="col-xs-12 col-md-6 padding-off-mobile form-group">
+                            <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="NOME*" />
                         </div>
-                        <div class="col-xs-12 col-md-5 padding-off-mobile form-group">
-                            <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="Telefone:" />
+                        <div class="col-xs-12 col-md-6 padding-off-mobile form-group">
+                            <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="EMAIL*" />
                         </div>
                         <div class="col-xs-12 col-md-7 padding-off-mobile form-group">
-                            <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-mail:*" />
+                            <input id="interesse" type="text" class="interesse form-control" name="interesse" placeholder="ASSUNTO" />
                         </div>
-                        <div class="col-xs-12 col-md-12 padding-off-mobile form-group">
-                            <input id="interesse" type="text" class="interesse form-control" name="interesse" placeholder="Assunto:" />
+                        <div class="col-xs-12 col-md-5 padding-off-mobile form-group">
+                            <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="TEL." />
                         </div>
                         <div class="col-xs-12 col-md-8 padding-off-mobile form-group">
-                            <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="Mensagem:"></textarea>
+                            <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="MENSAGEM"></textarea>
                         </div>
                         <div class="col-xs-12 col-md-4 padding-off-mobile form-group">
                             <button type="submit" class="btn_enviar enviar btn center-block" title="enviar" name="enviar_email" value="enviar">Enviar</button>

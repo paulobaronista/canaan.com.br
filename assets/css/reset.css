@@ -190,7 +190,9 @@ p {
     top: -25px;
 }
 
-
+.mx-auto {
+    margin: 0 auto;
+}
 /* Extra Small */
 
 @media(max-width:767px) {
