@@ -20,3 +20,46 @@
 .nosso-cafe .cafe {
     margin: 0 auto;
 }
+
+.nosso-cafe h1 {
+    font-family: 'Cronos Pro';
+    font-weight: normal;
+    font-style: normal;
+    color: #e6a12d;
+    text-align: right;
+    margin: 0;
+    font-size: 55px;
+    line-height: 48px
+}
+
+.nosso-cafe h1:nth-of-type(1) {
+    padding-right: 21px;
+}
+
+.nosso-cafe h1:nth-of-type(2) {
+    border-bottom: 3px solid #411b19;
+    width: 280px;
+    float: right;
+    padding-bottom: 12px;
+}
+
+.nosso-cafe h3 {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Cronos Pro Semi bold';
+    font-size: 23px;
+    line-height: 23px;
+    margin: 0;
+}
+
+.nosso-cafe p {
+    color: #000;
+    font-family: 'Cronos Pro Lt';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 47px;
+    max-width: 399px;
+}

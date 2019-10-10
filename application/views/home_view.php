@@ -32,16 +32,17 @@
                 <img class="img-responsive mx-auto cafe" src="<?= base_url(); ?>assets/images/graos-de-cafe.png" alt="">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <h1>NOSSO<br /> CAFÉ</h1>
+                <h1>NOSSO</h1> 
+                    <h1>CAFÉ</h1>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
                 <h3>escolha mais sabor para o seu dia.</h3>
                 <p> Se você é apaixonado por café como nós, também
                     não abre mão dele no seu dia a dia. De manhã, após
                     o almoço e nas pausas no meio do expediente, um bom
-                    café é sempre uma ótima pedida. Desde 1950, o Café Canaan
+                    café é sempre uma ótima pedida. Desde 1950, o <strong>Café Canaan</strong>
                     tem dado mais sabor ao dia de milhares de famílias. Gente
-                    que reconheceu no Café Canaan mais que um café, mas uma companhia para seus momentos de paz, harmonia e felicidade.
+                    que reconheceu no <strong>Café Canaan</strong> mais que um café, mas uma companhia para seus momentos de paz, harmonia e felicidade.
                     A grande notícia é que agora o nosso café está com novo sabo
                     e nova embalagem. Afinal, tradição também se renova. E isso
                     merece uma comemoração. Vamos erguer nossas xícaras
@@ -59,7 +60,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <h1>NOSSOS<br /> PRODUTOS</h1>
+                <h1>NOSSOS</h1>
+                    <h1>PRODUTOS</h1>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
                 <h3>CONHEÇA TODA A FAMÍLIA CANAAN.</h3>
