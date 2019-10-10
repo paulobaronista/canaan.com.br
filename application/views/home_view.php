@@ -58,9 +58,17 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
-
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>NOSSOS<br /> PRODUTOS</h1>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h3>CONHEÇA TODA A FAMÍLIA CANAAN.</h3>
+            </div>
             </div>
         </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+        <img class="img-responsive bg-cafe" src="<?= base_url(); ?>assets/images/bg-produtos.png" alt="">
     </div>
 </div>
 
@@ -77,7 +85,7 @@
                 <h3>para pedidos, sugestões ou dúvidas,
                     esse é o seu espaço.</h3>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                 <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                     <div class="group-form">
                         <div class="col-xs-12 col-md-6 padding-off-mobile form-group">
@@ -92,10 +100,10 @@
                         <div class="col-xs-12 col-md-5 padding-off-mobile form-group">
                             <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="TEL." />
                         </div>
-                        <div class="col-xs-12 col-md-8 padding-off-mobile form-group">
+                        <div class="col-xs-12 col-md-9 padding-off-mobile form-group">
                             <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="MENSAGEM"></textarea>
                         </div>
-                        <div class="col-xs-12 col-md-4 padding-off-mobile form-group">
+                        <div class="col-xs-12 col-md-3 padding-off-mobile form-group">
                             <button type="submit" class="btn_enviar enviar btn center-block" title="enviar" name="enviar_email" value="enviar">Enviar</button>
                         </div>
                     </div>

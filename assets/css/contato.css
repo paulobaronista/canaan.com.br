@@ -11,13 +11,24 @@
     color: #464b50;
 }
 
-.contato .form-control::placeholder {
-
-}
+.contato .form-control::placeholder {}
 
 
 .contato textarea {
-    height: 150px !important;
+    height: 85px !important;
+}
+
+.contato button {
+    background-color: #55021d;
+    color: #f8ae47;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: 'Cronos Pro';
+    letter-spacing: 11px;
+    border-radius: 20px;
+    padding: 9px 14px 9px 29px;
+    margin-top: 24px;
 }
 
 /* Extra Small */
