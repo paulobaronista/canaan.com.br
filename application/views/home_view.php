@@ -93,9 +93,6 @@
             </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
-        <img class="img-responsive bg-cafe" src="<?= base_url(); ?>assets/images/bg-produtos.png" alt="">
-    </div>
 </div>
 
 <div id="contato" class="contato animated wow slideInUp">

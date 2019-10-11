@@ -1,7 +1,8 @@
 footer {
     background-image: url(../images/bg-footer.png);
     background-position: bottom;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .fale-conosco h3 {
