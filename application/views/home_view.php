@@ -32,8 +32,8 @@
                 <img class="img-responsive mx-auto cafe" src="<?= base_url(); ?>assets/images/graos-de-cafe.png" alt="">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <h1>NOSSO</h1> 
-                    <h1>CAFÉ</h1>
+                <h1>NOSSO</h1>
+                <h1>CAFÉ</h1>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
                 <h3>escolha mais sabor para o seu dia.</h3>
@@ -59,13 +59,13 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <h1>NOSSOS</h1>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <h1>NOSSOS</h1>
                     <h1>PRODUTOS</h1>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <h3>CONHEÇA TODA A FAMÍLIA CANAAN.</h3>
-            </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <h3>CONHEÇA TODA A FAMÍLIA CANAAN.</h3>
+                </div>
             </div>
         </div>
     </div>

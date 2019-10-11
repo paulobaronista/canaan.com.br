@@ -1,0 +1,36 @@
+.nossos-produtos {
+
+}
+
+.nossos-produtos h1 {
+    font-family: 'Cronos Pro';
+    font-weight: normal;
+    font-style: normal;
+    color: #e6a12d;
+    text-align: right;
+    margin: 0;
+    font-size: 55px;
+    line-height: 48px;
+    
+}
+
+.nossos-produtos h1:nth-of-type(1) {
+    padding-right: 125px;
+    margin-top: 96px;
+}
+
+.nossos-produtos h1:nth-of-type(2) {
+    border-bottom: 3px solid #411b19;
+    width: 390px;
+    float: right;
+    padding-bottom: 10px;
+}
+
+.nossos-produtos h3 {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Cronos Pro Semi bold';
+    font-size: 23px;
+    line-height: 23px;
+    margin-top: 162px;
+}
