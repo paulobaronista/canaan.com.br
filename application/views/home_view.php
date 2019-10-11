@@ -69,23 +69,15 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 produtos-participantes">
                     <section class="slick_produtos slider text-center">
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/maos-na-colheita.png">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/1.png">
                             <p>aaaaa</p>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/maos-na-colheita.png">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/2.png">
                             <p>aaaaa</p>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/maos-na-colheita.png">
-                            <p>aaaaa</p>
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/maos-na-colheita.png">
-                            <p>aaaaa</p>
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/maos-na-colheita.png">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/3.png">
                             <p>aaaaa</p>
                         </div>
                     </section>
