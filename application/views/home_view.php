@@ -80,6 +80,18 @@
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/3.png">
                             <p>aaaaa</p>
                         </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/1.png">
+                            <p>aaaaa</p>
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/2.png">
+                            <p>aaaaa</p>
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/3.png">
+                            <p>aaaaa</p>
+                        </div>
                     </section>
                 </div>
             </div>
@@ -131,13 +143,27 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4">
-
+                <ul class="nav nav-pills nav-stacked">
+                    <li>TORRADOS E MOÍDOS</li>
+                    <li><a href="#">TRADICIONAL</a></li>
+                    <li><a href="#">EXTRA FORTE</a></li>
+                    <li><a href="#">PREMIUM</a></li>
+                </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4">
+            <ul class="nav nav-pills nav-stacked">
+                    <li>SOLÚVEIS</li>
+                    <li>TRADICIONAL</li>
+                    <li>extraforte</li>
 
+                </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4">
-
+            <ul class="nav nav-pills nav-stacked">
+                    <li>CáPSULAS</li>
+                    <li>levíssimo</li>
+                    <li>intenso</li>
+                </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-2">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cafex.png">
