@@ -81,7 +81,7 @@
                 <img class="img-responsive mx-auto cafe-contato" src="<?= base_url(); ?>assets/images/graos-po-xicara-de-cafe.png" alt="">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 text-center">
-                <h2>Contato</h2>
+                <h1>Contato</h1>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 text-center">
                 <h3>para pedidos, sugestões ou dúvidas,
