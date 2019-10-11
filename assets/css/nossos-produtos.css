@@ -1,6 +1,4 @@
-.nossos-produtos {
-
-}
+.nossos-produtos {}
 
 .nossos-produtos h1 {
     font-family: 'Cronos Pro';
@@ -11,7 +9,7 @@
     margin: 0;
     font-size: 55px;
     line-height: 48px;
-    
+
 }
 
 .nossos-produtos h1:nth-of-type(1) {
@@ -33,4 +31,275 @@
     font-size: 23px;
     line-height: 23px;
     margin-top: 162px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    
+        .produtos-participantes .slick_produtos .slick-list {
+            padding-top: 15px !important;
+            padding-bottom: 15px !important;
+        }
+
+        .produtos-participantes .slick_produtos img,
+        .produtos-participantes .slick_produtos p {
+            opacity: 0.8;
+            transition: all 300ms ease;
+            transform: scale(0.7);
+        }
+
+        .produtos-participantes .slick_produtos .slick-center img,
+           .produtos-participantes .slick_produtos .slick-center p {
+            -moz-transform: scale(1.08);
+            -ms-transform: scale(1.08);
+            -o-transform: scale(1.08);
+            -webkit-transform: scale(1.08);
+            opacity: 1;
+            transform: scale(1.08);
+        }
+
+        .produtos-participantes .slick_produtos p {
+
+            font-size: 25px;
+            line-height: 25px;
+            color: #ccc;
+            margin-top: 25px;
+            text-transform: uppercase;
+        }
+
+        .produtos-participantes .slick_produtos .slick-slide {
+            outline: none;
+        }
+    
+}
+
+/* --------------------------------------------------------- */
+/* ------------>>> CSS sm | ≥ 768px | Tablet <<<-------------- */
+/* --------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+   
+        .produtos-participantes .slick_produtos .slick-list {
+            padding-top: 15px !important;
+            padding-bottom: 15px !important;
+        }
+
+        .produtos-participantes .slick_produtos img,
+        .produtos-participantes .slick_produtos p {
+            opacity: 0.8;
+            transition: all 300ms ease;
+            transform: scale(0.7);
+        }
+
+        .produtos-participantes .slick_produtos .slick-center img,
+        .produtos-participantes .slick_produtos .slick-center p {
+            -moz-transform: scale(1.08);
+            -ms-transform: scale(1.08);
+            -o-transform: scale(1.08);
+            -webkit-transform: scale(1.08);
+            opacity: 1;
+            transform: scale(1.08);
+        }
+
+        .produtos-participantes .slick_produtos p {
+
+            font-size: 25px;
+            line-height: 25px;
+            color: #ccc;
+            margin-top: 25px;
+            text-transform: uppercase;
+        }
+
+        .produtos-participantes .slick_produtos .slick-slide {
+            outline: none;
+        }
+    
+}
+
+/* --------------------------------------------------------- */
+/* ------------>>> CSS md | ≥ 992 | Desktop <<<------------- */
+/* --------------------------------------------------------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+        .produtos-participantes .slick_produtos .slick-list {
+           padding-top: 15px !important;
+            padding-bottom: 15px !important;
+        }
+
+        .produtos-participantes .slick_produtos img,
+        .produtos-participantes .slick_produtos p {
+            opacity: 0.8;
+            transition: all 300ms ease;
+            transform: scale(0.7);
+        }
+
+        .produtos-participantes .slick_produtos .slick-center img,
+        .produtos-participantes .slick_produtos .slick-center p {
+            -moz-transform: scale(1.08);
+            -ms-transform: scale(1.08);
+            -o-transform: scale(1.08);
+            -webkit-transform: scale(1.08);
+            opacity: 1;
+            transform: scale(1.08);
+        }
+
+        .produtos-participantes .slick_produtos p {
+  
+            font-size: 25px;
+            line-height: 25px;
+            color: #ccc;
+            margin-top: 25px;
+            text-transform: uppercase;
+        }
+
+        .produtos-participantes .slick_produtos .slick-slide {
+            outline: none;
+        }
+    
+}
+
+/* --------------------------------------------------------- */
+/* ---------->>> CSS lg | ≥ 1200 | Desktop HD <<<----------- */
+/* --------------------------------------------------------- */
+@media (min-width: 1200px) {
+    .produtos-participantes {
+        background-color: #147713;
+    }
+
+    .produtos-participantes .slick_produtos .slick-list {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+
+    .produtos-participantes .slick_produtos img,
+    .produtos-participantes .slick_produtos p {
+        opacity: 0.8;
+        transition: all 300ms ease;
+        transform: scale(0.7);
+    }
+
+    .produtos-participantes .slick_produtos .slick-center img,
+    .produtos-participantes .slick_produtos .slick-center p {
+        -moz-transform: scale(1.08);
+        -ms-transform: scale(1.08);
+        -o-transform: scale(1.08);
+        -webkit-transform: scale(1.08);
+        opacity: 1;
+        transform: scale(1.08);
+    }
+
+    .produtos-participantes .slick_produtos p {
+
+        font-size: 25px;
+        line-height: 25px;
+        color: #ccc;
+        margin-top: 25px;
+        text-transform: uppercase;
+    }
+
+    .produtos-participantes .slick_produtos .slick-slide {
+        outline: none;
+    }
+
+}
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 46%;
+    display: block;
+    width: 23px;
+    height: 46px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: 10;
+}
+.slick-prev {
+    left: 0px;
+    background: url('../images/slick-prev.png') no-repeat;
+}
+.slick-next {
+    right: 0px;
+    background: url('../images/slick-next.png') no-repeat;
+}
+/* Dots */
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
 }

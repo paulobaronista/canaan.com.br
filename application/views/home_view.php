@@ -66,6 +66,30 @@
                 <div class="col-xs-12 col-sm-12 col-md-6">
                     <h3>CONHEÇA TODA A FAMÍLIA CANAAN.</h3>
                 </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 produtos-participantes">
+                    <section class="slick_produtos slider text-center">
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/maos-na-colheita.png">
+                            <p>aaaaa</p>
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/maos-na-colheita.png">
+                            <p>aaaaa</p>
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/maos-na-colheita.png">
+                            <p>aaaaa</p>
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/maos-na-colheita.png">
+                            <p>aaaaa</p>
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/maos-na-colheita.png">
+                            <p>aaaaa</p>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
@@ -113,16 +137,36 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit et consectetur dolores neque placeat perferendis tenetur quas aperiam, beatae praesentium omnis. Rerum vitae ipsa sit non facere sequi ratione ad.
-                </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cafex.png">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 fale-conosco">
+                <h3>fale conosco</h3>
+                <p>Cafex Indústria e Comércio de Produtos Alimentícios Ltda.</p>
+                <p>CNPJ: 15.373.003/0002-29</p>
+                <p>Rua da Cevada, nº 93 – Sala 303 - Penha Circular</p>
+                <p>Rio de Janeiro/RJ – CEP 21011-080</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/SAC.png">
             </div>
         </div>
-    </footer>
-</div>
+    </div>
+</footer>
+
 <?php
 if (isset($email_enviado))
     echo $email_enviado;
