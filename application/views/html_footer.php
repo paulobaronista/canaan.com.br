@@ -12,7 +12,7 @@ $(document).ready(function() {
     $('.slick_produtos').slick({
         dots: false,
         centerMode: true,
-        centerPadding: '20px',
+        centerPadding: '0px',
         arrows: true,
         slidesToShow: 3,
         responsive: [
