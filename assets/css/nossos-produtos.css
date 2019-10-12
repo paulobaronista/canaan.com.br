@@ -43,9 +43,32 @@
     padding-top: 62px;
 }
 
+.produtos-participantes h5 {
+    font-family: 'Cronos Pro Semi bold';
+    color: #fff;
+    font-size: 22px;
+text-transform: uppercase;
+margin: 0;
+padding-top: 22px;
+
+}
 
 
+.produtos-participantes h4 {
+    font-family: 'Cronos Pro Semi bold';
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 0;
+}
 
+.produtos-participantes h6 {
+    font-family: 'Cronos Pro';
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 0;
+}
 
 
 

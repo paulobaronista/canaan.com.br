@@ -70,27 +70,39 @@
                     <section class="slick_produtos slider text-center">
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/1.png">
-                            <p>aaaaa</p>
+                            <h5>canaan</h5>
+                            <h4>premium</h4>
+                            <h6>250 e 500 g</h6>
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/2.png">
-                            <p>aaaaa</p>
+                            <h5>canaan cápsulas</h5>
+                            <h4>levíssimo</h4>
+                            <h6>Blend Especial</h6>
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/3.png">
-                            <p>aaaaa</p>
+                            <h5> canaan cápsulas</h5>
+                            <h4>intenso</h4>
+                            <h6>100% Arábica</h6>
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/1.png">
-                            <p>aaaaa</p>
+                            <h5>canaan</h5>
+                            <h4>premium</h4>
+                            <h6>250 e 500 g</h6>
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/2.png">
-                            <p>aaaaa</p>
+                            <h5>canaan cápsulas</h5>
+                            <h4>levíssimo</h4>
+                            <h6>Blend Especial</h6>
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/3.png">
-                            <p>aaaaa</p>
+                            <h5> canaan cápsulas</h5>
+                            <h4>intenso</h4>
+                            <h6>100% Arábica</h6>
                         </div>
                     </section>
                 </div>
