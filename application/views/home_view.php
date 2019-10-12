@@ -143,7 +143,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4">
-                <ul class="nav nav-pills nav-stacked">
+                <ul class="nav">
                     <li>TORRADOS E MOÍDOS</li>
                     <li><a href="#">TRADICIONAL</a></li>
                     <li><a href="#">EXTRA FORTE</a></li>
@@ -153,16 +153,16 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
             <ul class="nav nav-pills nav-stacked">
                     <li>SOLÚVEIS</li>
-                    <li>TRADICIONAL</li>
-                    <li>extraforte</li>
+                    <li><a href="#">TRADICIONAL</a></li>
+                    <li><a href="#">extraforte</a></li>
 
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4">
             <ul class="nav nav-pills nav-stacked">
                     <li>CáPSULAS</li>
-                    <li>levíssimo</li>
-                    <li>intenso</li>
+                    <li><a href="#">levíssimo</a></li>
+                    <li><a href="#">intenso</a></li>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-2">
