@@ -3,6 +3,8 @@ footer {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
+    padding-bottom: 75px;
+    padding-top: 7px;
 }
 
 .fale-conosco h3 {
@@ -22,4 +24,27 @@ footer {
     font-size: 16px;
     line-height: 19px;
     
+}
+footer .nav {
+    padding-bottom: 75px; 
+}
+
+footer .nav .titulo {
+    font-family: 'Cronos Pro Semi bold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #231f20;
+    text-transform: uppercase;
+}
+
+footer .nav a {
+    font-family: 'Cronos Pro';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #231f20;
+    text-transform: uppercase;
 }
