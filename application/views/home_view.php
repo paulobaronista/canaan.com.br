@@ -142,32 +142,34 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4">
-                <ul class="nav">
-                    <li class="titulo">TORRADOS E MOÍDOS</li>
-                    <li><a href="#">TRADICIONAL</a></li>
-                    <li><a href="#">EXTRA FORTE</a></li>
-                    <li><a href="#">PREMIUM</a></li>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4">
-                <ul class="nav nav-pills nav-stacked">
-                    <li class="titulo">SOLÚVEIS</li>
-                    <li><a href="#">TRADICIONAL</a></li>
-                    <li><a href="#">extraforte</a></li>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-2">
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <ul class="nav">
+                        <li class="titulo">TORRADOS E MOÍDOS</li>
+                        <li><a href="#">• TRADICIONAL</a></li>
+                        <li><a href="#">• EXTRA FORTE</a></li>
+                        <li><a href="#">• PREMIUM</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="titulo">SOLÚVEIS</li>
+                        <li><a href="#">• TRADICIONAL</a></li>
+                        <li><a href="#">• extraforte</a></li>
 
-                </ul>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4">
-                <ul class="nav nav-pills nav-stacked">
-                    <li class="titulo">CáPSULAS</li>
-                    <li><a href="#">levíssimo</a></li>
-                    <li><a href="#">intenso</a></li>
-                </ul>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="titulo">CáPSULAS</li>
+                        <li><a href="#">• levíssimo</a></li>
+                        <li><a href="#">• intenso</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="col-xs-12 col-sm-12 col-md-2">
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cafex.png">
+                    <img class="img-responsive center-block cafex" src="<?= base_url(); ?>assets/images/cafex.png">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-5 fale-conosco">
                     <h3>fale conosco</h3>

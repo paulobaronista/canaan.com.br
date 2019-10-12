@@ -2,7 +2,6 @@ footer {
     background-image: url(../images/bg-footer.png);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
     padding-bottom: 75px;
     padding-top: 7px;
 }
@@ -26,7 +25,8 @@ footer {
     
 }
 footer .nav {
-    padding-bottom: 75px; 
+    padding-bottom: 105px; 
+    list-style-type: circle;
 }
 
 footer .nav .titulo {
@@ -47,4 +47,16 @@ footer .nav a {
     line-height: 16px;
     color: #231f20;
     text-transform: uppercase;
+    padding-bottom: 2px;
+    padding-left: 0;
+}
+
+footer .nav > li > a:focus, footer .nav > li > a:hover {
+    text-decoration: none;
+    background-color: 
+    transparent;
+}
+
+footer .cafex {
+    margin-top: 63px;
 }
