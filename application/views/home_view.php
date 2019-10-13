@@ -50,9 +50,7 @@
             </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 padding-off animated wow slideInUp">
         <img class="img-responsive bg-cafe" src="<?= base_url(); ?>assets/images/maos-na-colheita.png" alt="">
-    </div>
 </div> 
 
 <div id="nossos-produtos" class="nossos-produtos">
