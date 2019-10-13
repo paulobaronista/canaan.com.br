@@ -63,3 +63,82 @@
     margin-bottom: 47px;
     max-width: 399px;
 }
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .nosso-cafe .cafe {
+        width: 50%;
+    }
+
+    .nosso-cafe h1 {
+        font-size: 40px;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .nosso-cafe h1:nth-of-type(1) {
+        padding-right: 0px;
+    }
+
+    .nosso-cafe h1:nth-of-type(2) {
+        border-bottom: 3px solid #411b19;
+        width: 100%;
+        float: left;
+        padding-bottom: 10px;
+        padding-left: 75px;
+    }
+
+    .nosso-cafe h3 {
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    .nosso-cafe p {
+        max-width: 100%;
+        margin-bottom: 22px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nosso-cafe .cafe {
+        width: 35%;
+    }
+    .nosso-cafe h1 {
+        font-size: 40px;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .nosso-cafe h1:nth-of-type(1) {
+        padding-right: 0px;
+    }
+
+    .nosso-cafe h1:nth-of-type(2) {
+        border-bottom: 3px solid #411b19;
+        width: 100%;
+        float: left;
+        padding-bottom: 10px;
+        padding-left: 75px;
+    }
+
+    .nosso-cafe h3 {
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    .nosso-cafe p {
+        max-width: 100%;
+        margin-bottom: 22px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+@media (min-width: 1200px) {}
