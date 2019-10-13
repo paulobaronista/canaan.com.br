@@ -36,3 +36,35 @@
 
 
 @media (min-width: 1200px) {  }
+
+
+
+.avisos p {
+    font-family: 'Cronos Pro';
+    font-weight: normal;
+    font-style: normal;
+    color: #3c3f44;
+    font-size: 20px;
+    line-height: 35px;
+    margin: -280px  0 0 0;
+    background: #dccd6b;
+    padding: 10px 25px;
+    display: block;
+    float: right;
+}
+
+
+/* Extra Small */
+
+@media(max-width:767px) {
+    .avisos {
+        position: relative;
+    }
+    .avisos p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px;
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+}
