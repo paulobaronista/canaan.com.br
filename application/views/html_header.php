@@ -16,7 +16,7 @@
         <link rel="apple-touch-icon-precomposed" href="<?= base_url(); ?>assets/images/apple-touch-icon-57-precomposed.png">
         <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
-        <meta name="theme-color" content="#f9dc30"/>
+        <meta name="theme-color" content="#e6a12d"/>
         <!-- property (faz funcionar no linkedin) -->
         <meta property="og:title" content="O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!" />
         <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />

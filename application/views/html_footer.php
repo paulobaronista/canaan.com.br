@@ -24,10 +24,10 @@ $(document).ready(function() {
                 }
             },
             {
-                breakpoint: 769,
+                breakpoint: 585,
                 settings: {
                     centerMode: true,
-                    slidesToShow: 3
+                    slidesToShow: 1
                 }
             },
             {
