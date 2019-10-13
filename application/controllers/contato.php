@@ -28,8 +28,8 @@ class Contato extends CI_Controller
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@maei.com.br", "$nome"); //senha: @piTs23A
-            $this->email->to('contato@maei.com.br');
+            $this->email->from("contatocanaan.com.br", "$nome"); //senha: 
+            $this->email->to('contato@canaan.com.br');
             $this->email->cc('paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
