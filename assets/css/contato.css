@@ -11,6 +11,10 @@
     color: #464b50;
 }
 
+.contato {
+    overflow: hidden;
+}
+
 .contato .form-control::placeholder {
     color: #a09f9e;
 }
@@ -74,6 +78,7 @@
     .contato button {
         margin-top: 3px;
     }
+
     .contato h1 {
         font-size: 40px;
         line-height: 32px;
@@ -81,7 +86,8 @@
         width: 100%;
         float: none;
     }
-    .contato  h3 {
+
+    .contato h3 {
         font-size: 20px;
         line-height: 20px;
         padding-top: 15px;

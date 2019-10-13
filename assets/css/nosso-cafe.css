@@ -21,6 +21,10 @@
     margin: 0 auto;
 }
 
+.nosso-cafe {
+    overflow: hidden;
+}
+
 .nosso-cafe h1 {
     font-family: 'Cronos Pro';
     font-weight: normal;
@@ -96,6 +100,7 @@
         line-height: 20px;
         padding-top: 15px;
     }
+
     .nosso-cafe p {
         max-width: 100%;
         margin-bottom: 22px;
@@ -106,6 +111,7 @@
     .nosso-cafe .cafe {
         width: 35%;
     }
+
     .nosso-cafe h1 {
         font-size: 40px;
         line-height: 32px;
@@ -129,6 +135,7 @@
         line-height: 20px;
         padding-top: 15px;
     }
+
     .nosso-cafe p {
         max-width: 100%;
         margin-bottom: 22px;

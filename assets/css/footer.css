@@ -4,6 +4,7 @@ footer {
     background-repeat: no-repeat;
     padding-bottom: 75px;
     padding-top: 7px;
+    overflow: hidden;
 }
 
 .fale-conosco h3 {

@@ -3,6 +3,8 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
+    overflow: hidden;
+
 }
 
 .nossos-produtos h1 {
