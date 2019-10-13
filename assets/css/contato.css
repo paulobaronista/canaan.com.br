@@ -60,6 +60,10 @@
     margin-bottom: 30px;
 }
 
+.contato .btn.focus, .contato .btn:focus, .contato .btn:hover {
+    color:#f8ae47;
+    text-decoration: none;
+}
 
 /* Extra Small */
 

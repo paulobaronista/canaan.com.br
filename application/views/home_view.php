@@ -31,11 +31,11 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <img class="img-responsive mx-auto cafe" src="<?= base_url(); ?>assets/images/graos-de-cafe.png" alt="">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="col-xs-12 col-sm-12 col-md-6  wow bounceInLeft animated">
                 <h1>NOSSO</h1>
                 <h1>CAFÉ</h1>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="col-xs-12 col-sm-12 col-md-6  wow bounceInRight animated">
                 <h3>escolha mais sabor para o seu dia.</h3>
                 <p> Se você é apaixonado por café como nós, também
                     não abre mão dele no seu dia a dia. De manhã, após
@@ -50,7 +50,7 @@
             </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+    <div class="col-xs-12 col-sm-12 col-md-12 padding-off animated wow slideInUp">
         <img class="img-responsive bg-cafe" src="<?= base_url(); ?>assets/images/maos-na-colheita.png" alt="">
     </div>
 </div>
@@ -59,14 +59,14 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 wow bounceInLeft animated">
                     <h1>NOSSOS</h1>
                     <h1>PRODUTOS</h1>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 wow bounceInRight animated">
                     <h3>CONHEÇA TODA A FAMÍLIA CANAAN.</h3>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 produtos-participantes">
+                <div class="col-xs-12 col-sm-12 col-md-12 produtos-participantes  wow zoomIn animated">
                     <section class="slick_produtos slider text-center">
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/produtos/1.png">
@@ -151,7 +151,7 @@
         </div>
     </div>
 </div>
-<footer>
+<footer class="animated wow slideInUp">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-2">
