@@ -47,9 +47,9 @@
     font-family: 'Cronos Pro Semi bold';
     color: #fff;
     font-size: 22px;
-text-transform: uppercase;
-margin: 0;
-padding-top: 22px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 22px;
 
 }
 
@@ -249,7 +249,7 @@ padding-top: 22px;
     position: absolute;
     top: 46%;
     display: block;
-    width: 23px;
+    width: 38px;
     height: 46px;
     padding: 0;
     cursor: pointer;
@@ -339,4 +339,8 @@ padding-top: 22px;
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: black;
+}
+
+.slick-track {
+    margin-left: -328px;
 }
