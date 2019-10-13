@@ -22,10 +22,11 @@ footer {
     font-family: 'Cronos Pro';
     font-size: 16px;
     line-height: 19px;
-    
+
 }
+
 footer .nav {
-    padding-bottom: 105px; 
+    padding-bottom: 105px;
     list-style-type: circle;
 }
 
@@ -51,10 +52,11 @@ footer .nav a {
     padding-left: 0;
 }
 
-footer .nav > li > a:focus, footer .nav > li > a:hover {
+footer .nav>li>a:focus,
+footer .nav>li>a:hover {
     text-decoration: none;
-    background-color: 
-    transparent;
+    background-color:
+        transparent;
 }
 
 footer .cafex {
@@ -62,7 +64,7 @@ footer .cafex {
 }
 
 
-@media (max-width:  767.98px) { 
+@media (max-width: 767.98px) {
     footer {
         background-image: url(../images/bg-footer.png);
         background-position: bottom;
@@ -72,21 +74,22 @@ footer .cafex {
     }
 
     footer .nav {
-    padding-bottom: 19px;
- }
- footer .cafex {
-    margin-top: 36px;
-}
-}
+        padding-bottom: 19px;
+    }
 
-@media (min-width: 768px) and (max-width: 991.98px) {  
-    .logo img {
-        width: 36%;
-        
+    footer .cafex {
+        margin-top: 36px;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo img {
+        width: 36%;
+
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {}

@@ -48,6 +48,7 @@
     padding: 9px 14px 9px 29px;
     margin-top: 32px;
 }
+
 .contato h3 {
     text-transform: uppercase;
     color: #000;
@@ -60,14 +61,33 @@
     margin-bottom: 30px;
 }
 
-.contato .btn.focus, .contato .btn:focus, .contato .btn:hover {
-    color:#f8ae47;
+.contato .btn.focus,
+.contato .btn:focus,
+.contato .btn:hover {
+    color: #f8ae47;
     text-decoration: none;
 }
 
 /* Extra Small */
 
-@media(max-width:767px) {}
+@media(max-width:767px) {
+    .contato button {
+        margin-top: 3px;
+    }
+    .contato h1 {
+        font-size: 40px;
+        line-height: 32px;
+        text-align: left;
+        width: 100%;
+        float: none;
+    }
+    .contato  h3 {
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+
+}
 
 
 /* Small */
