@@ -58,8 +58,8 @@
 <div id="nossos-produtos" class="nossos-produtos">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-12">
-                <div class="col-xs-12 col-sm-12 col-md-6 wow bounceInLeft animated">
+            <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+                <div class="col-xs-12 col-sm-6 col-md-6 wow bounceInLeft animated">
                     <h1>NOSSOS</h1>
                     <h1>PRODUTOS</h1>
                 </div>
@@ -117,10 +117,10 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <img class="img-responsive mx-auto cafe-contato" src="<?= base_url(); ?>assets/images/graos-po-xicara-de-cafe.png" alt="">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+            <div class="col-xs-12 col-sm-6 col-md-6 text-center">
                 <h1>Contato</h1>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+            <div class="col-xs-12 col-sm-6 col-md-6 text-center">
                 <h3>para pedidos, sugestões ou dúvidas,
                     esse é o seu espaço.</h3>
             </div>
