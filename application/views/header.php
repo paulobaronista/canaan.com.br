@@ -13,7 +13,7 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a class="scrollink" href="#home">Home</a></li>
+                        <li><a class="scrollink active" href="#home">Home</a></li>
                         <li><a class="scrollink" href="#nosso-cafe">Nosso café</a></li>
                         <li><a class="scrollink" href="#nossos-produtos">Nossos produtos</a></li>
                         <li><a class="scrollink" href="#contato">Contato</a></li>

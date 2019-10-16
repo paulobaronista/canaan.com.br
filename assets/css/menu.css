@@ -43,10 +43,17 @@
     right: -3px;
     top: 7px;
 }
-
+.navbar-default .navbar-nav>li>a:active,
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
     color: #e6a12d;
+    text-decoration: underline;
+    
+}
+
+.navbar-nav .active {
+    color: #e6a12d !important;
+    text-decoration: underline;
 }
 
 .navbar-default .navbar-nav>li:last-child a::after {
@@ -57,7 +64,7 @@
     content: '';
     width: 60%;
     height: 1px;
-    background: #e6a12d;
+    background: transparent;
     position: absolute;
     bottom: 0;
     left: 50%;
