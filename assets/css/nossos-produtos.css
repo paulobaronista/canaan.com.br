@@ -4,7 +4,8 @@
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
-
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .nossos-produtos h1 {
@@ -195,7 +196,7 @@
 
     .produtos-participantes .slick_produtos img,
     .produtos-participantes .slick_produtos p {
-        opacity: 0.8;
+        opacity: 0.6;
         transition: all 300ms ease;
         transform: scale(0.7);
     }
@@ -237,7 +238,7 @@
 
     .produtos-participantes .slick_produtos img,
     .produtos-participantes .slick_produtos p {
-        opacity: 0.8;
+        opacity: 0.6;
         transition: all 300ms ease;
         transform: scale(0.7);
     }
@@ -279,7 +280,7 @@
 
     .produtos-participantes .slick_produtos img,
     .produtos-participantes .slick_produtos p {
-        opacity: 0.8;
+        opacity: 0.6;
         transition: all 300ms ease;
         transform: scale(0.7);
     }
@@ -322,7 +323,7 @@
 
     .produtos-participantes .slick_produtos img,
     .produtos-participantes .slick_produtos p {
-        opacity: 0.8;
+        opacity: 0.6;
         transition: all 300ms ease;
         transform: scale(0.7);
     }

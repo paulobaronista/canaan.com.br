@@ -42,7 +42,7 @@
                     o almoço e nas pausas no meio do expediente, um bom
                     café é sempre uma ótima pedida. Desde 1950, o <strong>Café Canaan</strong>
                     tem dado mais sabor ao dia de milhares de famílias. Gente
-                    que reconheceu no <strong>Café Canaan</strong> mais que um café, mas uma companhia para seus momentos de paz, harmonia e felicidade.
+                    que reconheceu no <strong>Café Canaan</strong> mais que um café, mas uma companhia para seus momentos de paz, harmonia e felicidade.<span class="hidden-xs hidden-sm"><br></span>
                     A grande notícia é que agora o nosso café está com novo sabo
                     e nova embalagem. Afinal, tradição também se renova. E isso
                     merece uma comemoração. Vamos erguer nossas xícaras
@@ -161,14 +161,14 @@
                         <li><a href="#">• PREMIUM</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-4">
+                <!-- <div class="col-xs-12 col-sm-4 col-md-4">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="titulo">SOLÚVEIS</li>
                         <li><a href="#">• TRADICIONAL</a></li>
                         <li><a href="#">• extraforte</a></li>
 
                     </ul>
-                </div>
+                </div> -->
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="titulo">CáPSULAS</li>
