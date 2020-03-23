@@ -1,0 +1,46 @@
+.modalProduto {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e7cc83+0,e0cc9f+46 */
+  background: #e7cc83;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#e7cc83), color-stop(46%, #e0cc9f));
+  background: linear-gradient(to bottom, #e7cc83 0%, #e0cc9f 46%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7cc83', endColorstr='#e0cc9f', GradientType=0);
+  /* IE6-9 */
+}
+
+.modalProduto .modal-content {
+  position: relative;
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modalProduto .close {
+  color: #411916;
+  opacity: 100;
+  position: relative;
+  z-index: 100;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .modalProduto .modal-body {
+    padding: 0px;
+  }
+  .modalProduto .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 90px 10px 10px 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=modal.css.map */

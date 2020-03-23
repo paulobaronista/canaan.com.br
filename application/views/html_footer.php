@@ -3,44 +3,11 @@
 echo script_tag('assets/js/jquery.clearinput.js');
 echo script_tag('assets/js/jFuncoes.js');
 echo script_tag('assets/js/bootstrap.min.js');
-echo script_tag('assets/js/wow.min.js');
-echo script_tag('assets/js/slick.min.js');
 ?>
-<script>
 
-$(document).ready(function() {
-    $('.slick_produtos').slick({
-        dots: false,
-        centerMode: true,
-        centerPadding: '0px',
-        arrows: true,
-        slidesToShow: 3,
-        responsive: [
-            {
-                breakpoint: 993,
-                settings: {
-                    centerMode: true,
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 585,
-                settings: {
-                    centerMode: true,
-                    slidesToShow: 1
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    centerMode: true,
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
-});
-</script>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CT7TNV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 </body>
+
 </html>

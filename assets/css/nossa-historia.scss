@@ -1,0 +1,100 @@
+.nossa-historia {
+    background: url(../images/bg-nossa-historia.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    p {
+        font-family: 'Cronos Pro';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 17px;
+        line-height: 23px;
+        width: 67%;
+    }
+
+    .zeca {
+        margin-top: -45px;
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+    .dt {
+        margin-left: -20px;
+    }
+
+    .tt {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .nossa-historia {
+        padding-top: 30px;
+        padding-bottom: 40px;
+
+        p {
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .tt {
+            margin: 0 auto 10px;
+            max-width: 60%;
+        }
+        .dt {
+            margin-left: 0px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    .nossa-historia {
+        padding-top: 20px;
+        padding-bottom: 30px;
+
+        p {
+            font-size: 15px;
+            line-height: 24px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .zeca {
+            margin: 0 auto;
+        }
+
+        .tt {
+            margin: 0 auto;
+            max-width: 50%;
+        }
+        .dt {
+            margin-left: 0px;
+        }
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {
+    .nossa-historia {
+        
+        p {
+            font-size: 13px;
+            line-height: 19px;
+            width: 73%;
+        }
+
+        .zeca {
+            margin-top: -10px;
+            margin-bottom: -10px;
+        }
+    }
+}
+
+/* Large */
+@media(min-width:1200px) {}

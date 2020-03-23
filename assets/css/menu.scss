@@ -1,0 +1,112 @@
+.navbar {
+    width: 100%;
+    text-align: center;
+    background-color: #411916;
+    border-color: transparent;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+    font-family: 'Cronos Pro';
+    font-weight: normal;
+    font-style: normal;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    padding-top: 5px;
+    padding-bottom: 7px;
+
+    .navbar-nav {
+        float: none;
+        margin: 0;
+
+        li {
+            display: inline-block;
+            float: none;
+            vertical-align: middle;
+
+            a {
+                font-size: 15px;
+                line-height: 15px;
+                color: #fff;
+                text-transform: uppercase;
+                padding: 5px 10px;
+                border-radius: 3px;
+
+                &:focus,
+                &:hover {
+                    color: #411916;
+                    background-color: #faefd0;
+                }
+            }
+
+            .logo {
+                padding: 0 20px;
+
+                &:focus,
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+        }
+        .dt {
+            margin-left: -40px;
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .navbar {
+        padding-top: 0px;
+        padding-bottom: 2px;
+    }
+    .navbar .navbar-nav {
+        li {
+            display: block;
+            .logo { 
+                display: none;
+            }
+        }
+        .dt {
+            margin-left: 0px;
+        }
+    }
+    .navbar .navbar-collapse, 
+    .navbar .navbar-form {
+        border-color: transparent;
+        border-top: 0px solid transparent;
+        padding-bottom: 10px;
+
+    }
+    .navbar-collapse {
+        box-shadow: none;
+    }
+    .navbar .navbar-nav li a {
+        padding: 10px 10px;
+        border-radius: 0px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus, 
+    .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .logo-mobile {
+        width: 80px;
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

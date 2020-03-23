@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Cronos Pro';
+    src: url('../fonts/CronosPro-Regular.eot');
+    src: url('../fonts/CronosPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CronosPro-Regular.woff2') format('woff2'),
+        url('../fonts/CronosPro-Regular.woff') format('woff'),
+        url('../fonts/CronosPro-Regular.ttf') format('truetype'),
+        url('../fonts/CronosPro-Regular.svg#CronosPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cronos Pro Lt';
+    src: url('../fonts/CronosPro-Lt.eot');
+    src: url('../fonts/CronosPro-Lt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CronosPro-Lt.woff2') format('woff2'),
+        url('../fonts/CronosPro-Lt.woff') format('woff'),
+        url('../fonts/CronosPro-Lt.ttf') format('truetype'),
+        url('../fonts/CronosPro-Lt.svg#CronosPro-Lt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cronos Pro Semi bold';
+    src: url('../fonts/CronosPro-Semibold.eot');
+    src: url('../fonts/CronosPro-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CronosPro-Semibold.woff2') format('woff2'),
+        url('../fonts/CronosPro-Semibold.woff') format('woff'),
+        url('../fonts/CronosPro-Semibold.ttf') format('truetype'),
+        url('../fonts/CronosPro-Semibold.svg#CronosPro-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cronos Pro';
+    src: url('../fonts/CronosPro-Bold.eot');
+    src: url('../fonts/CronosPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CronosPro-Bold.woff2') format('woff2'),
+        url('../fonts/CronosPro-Bold.woff') format('woff'),
+        url('../fonts/CronosPro-Bold.ttf') format('truetype'),
+        url('../fonts/CronosPro-Bold.svg#CronosPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

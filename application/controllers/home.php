@@ -1,18 +1,15 @@
 <?php
-if (!defined('BASEPATH')) exit('No direct script access allowed');
+if(!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends CI_Controller
-{
+class Home extends CI_Controller{
 
-    public function __construct()
-    {
+    public function __construct(){
         parent::__construct();
     }
-    public function index()
-    {
+    public function index(){
         $data['title'] = 'Café Canaan';
         $data['description'] = 'O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!';
-        $data['keywords'] = '';
+        $data['keywords'] = 'café, canaan, grãos';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);
@@ -21,7 +18,9 @@ class Home extends CI_Controller
         $this->load->view('conteudo', $conteudo);
         $this->load->view('rodape');
         $this->load->view('html_footer');
+
     }
+
 }
 
 /* Location: ./application/controllers/home.php */

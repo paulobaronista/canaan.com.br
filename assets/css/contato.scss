@@ -1,0 +1,85 @@
+.contato {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    ;
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        font-family: 'Cronos Pro';
+        font-weight: bold;
+        font-style: normal;
+        background-color: #fffae2;
+        border: 1px solid #411916;
+        border-radius: 0px;
+        color: #411916;
+        height: 40px;
+        text-transform: uppercase;
+        padding: 10px 12px;
+
+        &::-webkit-input-placeholder {
+            color: #411916;
+        }
+
+        &:-ms-input-placeholder {
+            color: #411916;
+        }
+
+        &::placeholder {
+            color: #411916;
+        }
+    }
+
+    textarea.form-control {
+        height: 100px;
+    }
+
+    .tt {
+        margin-bottom: 30px;
+    }
+
+    .btn_enviar {
+        font-family: 'Cronos Pro';
+        font-weight: bold;
+        font-style: normal;
+        text-transform: uppercase;
+        background-color: #411916;
+        color: #fff;
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px 40px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .contato {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .tt {
+            margin: 0 auto 20px;
+            max-width: 70%;
+        }
+
+        .btn_enviar {
+            width: 100%;
+            font-size: 25px;
+            line-height: 25px;
+            margin-top: 10px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

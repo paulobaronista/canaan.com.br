@@ -1,0 +1,75 @@
+.pedidos {
+  background: url(../images/bg-pedidos.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.pedidos .texto,
+.pedidos a {
+  font-family: 'Cronos Pro';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #411916;
+}
+
+.pedidos .texto:hover,
+.pedidos a:hover {
+  text-decoration: none;
+}
+
+.pedidos .se {
+  margin-top: 25px;
+}
+
+.pedidos .endereco {
+  font-family: 'Cronos Pro';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #411916;
+  margin-top: 30px;
+}
+
+footer {
+  background: url(../images/bg-cafe.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .pedidos {
+    background: #fcf2d6;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(64%, #fcf2d6), to(#cfb67b));
+    background: linear-gradient(to bottom, #fcf2d6 64%, #cfb67b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcf2d6', endColorstr='#cfb67b', GradientType=0);
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  .pedidos .tt {
+    margin: 0 auto;
+    max-width: 70%;
+  }
+  .pedidos .texto,
+  .pedidos a {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .pedidos .texto {
+    margin-top: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=pedidos.css.map */

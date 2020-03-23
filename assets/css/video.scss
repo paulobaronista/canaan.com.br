@@ -1,0 +1,50 @@
+.video {
+    background: url(../images/bg-video.jpg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 60px;
+    padding-bottom: 160px;
+    p {
+        font-family: 'Cronos Pro';
+        font-weight: bold;
+        font-style: normal;
+        text-transform: uppercase;
+        color: #411916;
+        font-size: 25px;
+        line-height: 25px;
+    }
+    video {
+        width: 500px;
+        display: table;
+        margin: 50px auto 0;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .video {
+        background: #fcf4dd;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        p {
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+        video {
+            width: 100%;
+            display: table;
+            margin: 30px auto 0;
+        }
+
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

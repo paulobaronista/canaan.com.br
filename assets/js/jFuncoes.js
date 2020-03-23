@@ -1,28 +1,3 @@
-$(document).ready(function() {
-    var wow = new WOW({
-        boxClass: 'wow', // animated element css class (default is wow)
-        animateClass: 'animated', // animation css class (default is animated)
-    });
-    wow.init();
-});
-
-
-$(document).ready(function() {
-    $('#residenciais').carousel({
-        pause: true,
-        interval: false,
-    });
-    $('#comerciais').carousel({
-        pause: true,
-        interval: false,
-    });
-    $('#modal-cidade-jardim').carousel({
-        pause: true,
-        interval: false,
-    });
-});
-
-
 // Script Scroll OnPage
 $(document).ready(function() {
     $(document).on("scroll", onScroll);
@@ -59,30 +34,20 @@ function onScroll(event) {
     });
 }
 
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 500) {
-        $(".navbar").addClass("navbarBG");
-    } else {
-        $(".navbar").removeClass("navbarBG");
-    }
-});
-
 $(function() {
     $('.nome').clear();
     $('.email').clear();
     $('.phone').clear();
-    $('.interesse').clear();
+    $('.ass').clear();
     $('.msg').clear();
 
     $('.btn_enviar').on('click', function() {
-        var n, e, t, i, m;
+        var n, e, t, a, m;
         var msg = "";
         n = $('.nome').val();
         e = $('.email').val();
         t = $('.phone').val();
-        i = $('.interesse').val();
+        a = $('.ass').val();
         m = $('.msg').val();
     });
 

@@ -1,0 +1,116 @@
+.contato .form-control {
+    background-color: #fff7e7;
+    border: 1px solid #f9bc66;
+    height: 45px;
+    border-radius: 26px;
+    font-family: 'Cronos Pro';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #464b50;
+}
+
+.contato {
+    overflow: hidden;
+}
+
+.contato .form-group {
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+.contato .form-control::placeholder {
+    color: #a09f9e;
+}
+
+
+.contato textarea {
+    height: 90px !important;
+}
+
+.contato h1 {
+    font-family: 'Cronos Pro';
+    font-weight: normal;
+    font-style: normal;
+    color: #e6a12d;
+    text-align: right;
+    margin: 0;
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 48px;
+    border-bottom: 3px solid #411b19;
+    width: 280px;
+    float: right;
+    padding-bottom: 10px;
+}
+
+.contato button {
+    background-color: #55021d;
+    color: #f8ae47;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: 'Cronos Pro';
+    letter-spacing: 11px;
+    border-radius: 20px;
+    padding: 9px 14px 9px 29px;
+    margin-top: 25px;
+}
+
+.contato h3 {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Cronos Pro Semi bold';
+    font-size: 23px;
+    line-height: 27px;
+    margin: 0;
+    text-align: left;
+    max-width: 407px;
+    margin-bottom: 30px;
+}
+
+.contato .btn.focus,
+.contato .btn:focus,
+.contato .btn:hover {
+    color: #f8ae47;
+    text-decoration: none;
+}
+
+/* Extra Small */
+
+@media(max-width:767px) {
+    .contato button {
+        margin-top: 3px;
+    }
+
+    .contato h1 {
+        font-size: 40px;
+        line-height: 32px;
+        text-align: left;
+        width: 100%;
+        float: none;
+    }
+
+    .contato h3 {
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+
+}
+
+
+/* Small */
+
+@media(min-width:768px) and (max-width:991px) {}
+
+
+/* Medium */
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+
+/* Large */
+
+@media(min-width:1200px) {}

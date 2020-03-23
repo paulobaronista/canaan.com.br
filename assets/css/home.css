@@ -1,74 +1,41 @@
-.logo {
-    width: 100%;
-    position: absolute;
-    top: 0;
+.home {
+  padding-top: 96px;
 }
 
-.logo img {
-    float: left;
-    margin-top: 100px;
+.avisos {
+  width: 100%;
+  position: absolute;
+  top: 20%;
 }
 
-.carousel-inner img {
-    margin: 0 auto;
+.avisos div {
+  width: 500px;
+  background-color: #411916;
+  color: #fff;
+  display: table;
+  margin: 0 auto;
+  padding: 20px 10px;
 }
 
-@media (max-width: 575.98px) {
-    .logo img {
-        width: 44%;
-        margin-top: 10px !important;
-    }
+.avisos div p {
+  font-family: 'Cronos Pro';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .logo img {
-        width: 36%;
-        margin-top: 71px !important;
-    }
-}
-
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .logo img {
-        width: 36%;
-
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-
-@media (min-width: 1200px) {}
-
-
-
-.avisos p {
-    font-family: 'Cronos Pro';
-    font-weight: normal;
-    font-style: normal;
-    color: #3c3f44;
-    font-size: 20px;
-    line-height: 35px;
-    margin: -280px 0 0 0;
-    background: #dccd6b;
-    padding: 10px 25px;
-    display: block;
-    float: right;
-}
-
 
 /* Extra Small */
-
-@media(max-width:767px) {
-    .avisos {
-        position: relative;
-    }
-
-    .avisos p {
-        font-size: 16px;
-        line-height: 24px;
-        padding: 10px;
-        text-align: center;
-        margin: 0 0 0 0;
-    }
+@media (max-width: 767px) {
+  .home {
+    padding-top: 52px;
+  }
+  .avisos div {
+    width: 100%;
+  }
 }
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=home.css.map */

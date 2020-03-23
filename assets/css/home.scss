@@ -1,0 +1,45 @@
+.home {
+    padding-top: 96px;
+}
+
+.avisos {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    div {
+        width: 500px;
+        background-color: #411916;
+        color: #fff;
+        display: table;
+        margin: 0 auto;
+        padding: 20px 10px;
+        p {
+            font-family: 'Cronos Pro';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .home {
+        padding-top: 52px;
+    }
+    .avisos {
+        div {
+            width: 100%;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

@@ -1,0 +1,52 @@
+.modalProduto {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e7cc83+0,e0cc9f+46 */
+    background: #e7cc83;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e7cc83 0%, #e0cc9f 46%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e7cc83 0%, #e0cc9f 46%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e7cc83 0%, #e0cc9f 46%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7cc83', endColorstr='#e0cc9f', GradientType=0);
+    /* IE6-9 */
+
+    .modal-content {
+        position: relative;
+        background-color: transparent;
+        border: 0px solid transparent;
+        border-radius: 0px;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .close {
+        color: #411916;
+        opacity: 100;
+        position: relative;
+        z-index: 100;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .modalProduto {
+        .modal-body {
+            padding: 0px;
+        }
+        .modal-dialog {
+            position: relative;
+            width: auto;
+            margin: 90px 10px 10px 10px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

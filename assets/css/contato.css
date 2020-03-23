@@ -1,116 +1,82 @@
-.contato .form-control {
-    background-color: #fff7e7;
-    border: 1px solid #f9bc66;
-    height: 45px;
-    border-radius: 26px;
-    font-family: 'Cronos Pro';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 15px;
-    color: #464b50;
-}
-
 .contato {
-    overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .contato .form-group {
-    margin-bottom: 10px;
-    padding: 0 5px;
+  margin-bottom: 15px;
+}
+
+.contato .form-control {
+  font-family: 'Cronos Pro';
+  font-weight: bold;
+  font-style: normal;
+  background-color: #fffae2;
+  border: 1px solid #411916;
+  border-radius: 0px;
+  color: #411916;
+  height: 40px;
+  text-transform: uppercase;
+  padding: 10px 12px;
+}
+
+.contato .form-control::-webkit-input-placeholder {
+  color: #411916;
+}
+
+.contato .form-control:-ms-input-placeholder {
+  color: #411916;
+}
+
+.contato .form-control::-ms-input-placeholder {
+  color: #411916;
 }
 
 .contato .form-control::placeholder {
-    color: #a09f9e;
+  color: #411916;
 }
 
-
-.contato textarea {
-    height: 90px !important;
+.contato textarea.form-control {
+  height: 100px;
 }
 
-.contato h1 {
-    font-family: 'Cronos Pro';
-    font-weight: normal;
-    font-style: normal;
-    color: #e6a12d;
-    text-align: right;
-    margin: 0;
-    font-size: 55px;
-    text-transform: uppercase;
-    line-height: 48px;
-    border-bottom: 3px solid #411b19;
-    width: 280px;
-    float: right;
-    padding-bottom: 10px;
+.contato .tt {
+  margin-bottom: 30px;
 }
 
-.contato button {
-    background-color: #55021d;
-    color: #f8ae47;
-    text-transform: uppercase;
-    font-size: 22px;
-    line-height: 22px;
-    font-family: 'Cronos Pro';
-    letter-spacing: 11px;
-    border-radius: 20px;
-    padding: 9px 14px 9px 29px;
-    margin-top: 25px;
-}
-
-.contato h3 {
-    text-transform: uppercase;
-    color: #000;
-    font-family: 'Cronos Pro Semi bold';
-    font-size: 23px;
-    line-height: 27px;
-    margin: 0;
-    text-align: left;
-    max-width: 407px;
-    margin-bottom: 30px;
-}
-
-.contato .btn.focus,
-.contato .btn:focus,
-.contato .btn:hover {
-    color: #f8ae47;
-    text-decoration: none;
+.contato .btn_enviar {
+  font-family: 'Cronos Pro';
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: #411916;
+  color: #fff;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin-top: 30px;
 }
 
 /* Extra Small */
-
-@media(max-width:767px) {
-    .contato button {
-        margin-top: 3px;
-    }
-
-    .contato h1 {
-        font-size: 40px;
-        line-height: 32px;
-        text-align: left;
-        width: 100%;
-        float: none;
-    }
-
-    .contato h3 {
-        font-size: 20px;
-        line-height: 20px;
-        padding-top: 15px;
-    }
-
+@media (max-width: 767px) {
+  .contato {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .contato .tt {
+    margin: 0 auto 20px;
+    max-width: 70%;
+  }
+  .contato .btn_enviar {
+    width: 100%;
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
 }
 
-
 /* Small */
-
-@media(min-width:768px) and (max-width:991px) {}
-
-
 /* Medium */
-
-@media(min-width:992px) and (max-width:1199px) {}
-
-
 /* Large */
-
-@media(min-width:1200px) {}
+/*# sourceMappingURL=contato.css.map */

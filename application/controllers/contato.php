@@ -12,7 +12,7 @@ class Contato extends CI_Controller
     {
         $data['title'] = 'Café Canaan';
         $data['description'] = 'O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!';
-        $data['keywords'] = '';
+        $data['keywords'] = 'café, canaan, grãos';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -20,7 +20,7 @@ class Contato extends CI_Controller
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
-            $interesse = $this->input->post('interesse');
+            $ass = $this->input->post('ass');
             $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('Contato enviado pelo site www.canaan.com.br');
 
@@ -28,25 +28,26 @@ class Contato extends CI_Controller
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contatocanaan.com.br", "$nome"); //senha: 
-            $this->email->to('contato@canaan.com.br');
-            $this->email->cc('paulobaronista@gmail.com');
+            $this->email->from("vendas@canaan.com.br", "$nome");
+            $this->email->to('vendas@canaan.com.br');
+            $this->email->cc('renata@spicycomm.com.br, paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
             Nome:		{$nome}<br/>
-                Telefone:	{$telefone}<br/>
-                    E-mail:		{$email}<br/>
-                        Assunto:	{$interesse}<br/>
+                E-mail:		{$email}<br/>
+                    Assunto:	{$ass}<br/>
+                        Telefone:	{$telefone}<br/>
                             Mensagem:	{$mensagem}<br/>
                             </body></html>");
 
             if ($this->email->send()) {
-                redirect('https://www.canaan.com.br/contato/obrigado');
+                redirect('contato/obrigado');
             } else {
-                redirect('https://www.canaan.com.br/contato/fail');
+                redirect('contato/fail');
             }
+
         }
 
         $this->load->view('html_header', $data);
@@ -61,7 +62,7 @@ class Contato extends CI_Controller
     {
         $data['title'] = 'Café Canaan';
         $data['description'] = 'O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!';
-        $data['keywords'] = '';
+        $data['keywords'] = 'café, canaan, grãos';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -76,7 +77,7 @@ class Contato extends CI_Controller
     {
         $data['title'] = 'Café Canaan';
         $data['description'] = 'O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!';
-        $data['keywords'] = '';
+        $data['keywords'] = 'café, canaan, grãos';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);
