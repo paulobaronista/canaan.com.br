@@ -1,3 +1,10 @@
+$(document).ready(function () {
+    $("#close").click(function () {
+        $("#aviso").hide();
+        window.location.href = "http://canaan.com.br"
+    });
+});
+
 // Script Scroll OnPage
 $(document).ready(function() {
     $(document).on("scroll", onScroll);

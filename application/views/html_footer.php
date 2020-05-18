@@ -5,9 +5,6 @@ echo script_tag('assets/js/jFuncoes.js');
 echo script_tag('assets/js/bootstrap.min.js');
 ?>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CT7TNV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>

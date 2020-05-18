@@ -11,15 +11,15 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarCanaan">
             <ul class="nav navbar-nav">
-                <li><a class="dt" href="http://canaan.com.br/#nossa-historia">Nossa História</a></li>
-                <li><a href="http://canaan.com.br/#nossos-produtos">Nossos Produtos</a></li>
+                <li><a class="scrollink active dt" href="#nossa-historia">Nossa História</a></li>
+                <li><a class="scrollink" href="#nossos-produtos">Nossos Produtos</a></li>
                 <li>
-                    <a class="logo" href="http://canaan.com.br/">
+                    <a class="logo scrollink" href="#">
                         <img class="img-responsive" src="<?= base_url(); ?>assets/images/logo.png" alt="Canaan">
                     </a>
                 </li>
-                <li><a href="http://canaan.com.br/#contato">Fale Conosco</a></li>
-                <li><a href="http://canaan.com.br/#pedidos">Pedidos</a></li>
+                <li><a class="scrollink" href="#contato">Fale Conosco</a></li>
+                <li><a class="scrollink" href="#pedidos">Pedidos</a></li>
             </ul>
         </div>
     </nav>
@@ -38,14 +38,6 @@
             </div>
         </div>
     </section>
-    <div class="text-center avisos">
-        <div>
-            <p>O e-mail não pode ser enviado!<br />
-                <strong>Tente novamente!</strong><br />
-                Se o problema persistir, entre em contato pelo e-mail <strong>vendas@canaan.com.br</strong><br />
-                Ou Ligue: <strong> 2584.0204 / 96481.1814 </strong></p>
-        </div>
-    </div>
 </div>
 
 <div class="video">
@@ -56,7 +48,7 @@
                     Confira o filme e entre No ritmo do café canaan.
                 </p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
                 <video width="100%" height="auto" controls>
                     <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
                     <source src="<?= base_url(); ?>assets/video/video.ogg" type="video/ogg">
@@ -189,3 +181,18 @@
         </div>
     </div>
 </footer>
+
+<div id="aviso" class="aviso text-center">
+    <div>
+        <button type="button" class="close" id="close"><span aria-hidden="true">&times;</span></button>
+        <p>O e-mail não pode ser enviado!<br />
+                <strong>Tente novamente!</strong><br />
+                Se o problema persistir, entre em contato pelo e-mail <strong>vendas@canaan.com.br</strong><br />
+                Ou Ligue: <strong> 2584.0204 / 96481.1814 </strong></p>
+    </div>
+</div>
+
+<?php
+if (isset($email_enviado))
+    echo $email_enviado;
+?>
